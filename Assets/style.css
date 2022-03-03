@@ -11,7 +11,6 @@ body {
     padding: 20px;
     background-color: turquoise;
     color: navy;
-    margin-bottom: 15px;
 }
 
 .header h1 {
@@ -45,20 +44,44 @@ body {
     color: orchid;
 }
 
+.abstract {
+    height: 1000px;
+    width: 100%;
+    margin-bottom: -275px;
+    background-image: url("./Images/abstract\ background.png");
+    background-size: cover;
+    background-position: center;
+}
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 25px;
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: -2000px;
 } 
 
 .content-item {
     margin-bottom: 20px;
     padding: 50px;
-    height: 100px;
+    height: auto;
     background-color: navy;
     color: turquoise;
+}
+
+.auto-biography {
+    display: flex;
+    flex: row;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: auto;
+    background-color: navy;
+    color: turquoise;
+    line-height: 1.5;
+}
+
+img {
+    margin-right: 50px;
 }
 
 .contact-info {
@@ -68,31 +91,30 @@ body {
     font-size: 20px;
 }
 
-/* .information {
-    margin-right: 20px;
+.information {
+    /* margin-right: 20px; */
     padding: 20px;
     clear: both;
     float: left;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    /* background-color: #d9dcd8; */
     text-align: center;
-    color: #ffffff;
+    color: navy;
     display: block;
+    border-right: solid;
 }
 
-.information2 {
+/* .information2 {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #d9dcd8;
     text-align: center;
-    color: #ffffff;
+    color: navy;
     display: block;
 } */
 
