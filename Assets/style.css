@@ -223,40 +223,30 @@ footer p {
     padding: 10px;
 }
 
-@media screen and (max-width: 768px) {
-    /* Use flex-direction to stack the navbar, sidebar, and body */
+ @media screen and (max-width: 992px) {
     .auto-biography,
     .content,
     .content-item,
     .display
     .contact-info {
-        display: flex;
+    display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       width: 100%;
-      /* justify-content: center; */
+      justify-content: center;
     }
 
     aside h2{
        display: none; 
     }
 
-    .projects {
+    /* .projects {
         flex: 0 0 75%;
         max-width: 33.33%
-    }
-
-}
-
- @media screen and (max-width: 992px) {
-
+    } */
      .information {
          width:100%;
         }
-        Make the sidebar stack below the body
-          aside {
-          order: 2;
-          }
 
      .header {
           background: #772014;
