@@ -115,7 +115,7 @@ h2::before {
     color: turquoise;
     line-height: 1.5;
     border-radius: 15px;
-    flex: 0 2 1188.75px;
+    flex: 0 2 100px;
 }
 
 img {
@@ -125,15 +125,26 @@ img {
 }
 
 .projects {
-    padding: 10px;
+    padding:15px;
     margin: 10px, 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
     color: navy;
-    
 }
+
+/* .project-card1 {
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 1px; 
+    box-shadow: 5px 5px 15px black;
+    display:flex;
+    height: 300px;
+    width: 1185px; 
+}*/
 
 .project-card {
     border-style: solid;
@@ -148,12 +159,21 @@ img {
 
 .project-card:hover{
     color: white;
+    box-shadow: inset 0px 0px 15px;
+}
+
+.project-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+    padding: 20px;
 }
 
 #horiseon {
     background-image: url(./Images/social-media-marketing.png);
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
 }
 
 #frog {
@@ -205,14 +225,23 @@ footer p {
     .auto-biography,
     .content,
     .content-item,
-    .projects,
+    .display
     .contact-info {
         display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      justify-content: center;
+      /* justify-content: center; */
     }
 
+    aside h2{
+       display: none; 
+    }
+
+    .projects {
+        width: 75%
+    }
+
+}
 
  @media screen and (max-width: 992px) {
 
