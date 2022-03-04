@@ -94,6 +94,7 @@ h2::before {
     background-color: navy;
     color: turquoise;
     border-radius: 15px;
+    text-align: center;
 }
 
 .auto-biography {
@@ -111,6 +112,7 @@ h2::before {
 img {
     margin-right: 50px;
     border-radius: 15px 15px;
+    box-shadow: 5px 5px 15px black;
 }
 
 .contact-info {
@@ -142,20 +144,27 @@ footer p {
 
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
-    main,
-    nav {
+    .auto-biography,
+    .content,
+    .content-item,
+    .contact-info {
+        display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
+    };
+
+    .information {
+        width:100vw;
     }
     /* Make the sidebar stack below the body */
-    aside {
+    /* aside {
       order: 2;
-    }
+    } */
     /* Change the header background */
-    header {
+    .header {
       background: #772014;
     }
     /* Change the navbar and footer background */
-    nav,
     footer {
       background-color: #bb8588;
     }
