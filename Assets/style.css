@@ -25,10 +25,6 @@ body {
     font-size: 20px;
 }
 
-/* .header div ul {
-    list-style-type: none;
-} */
-
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -44,13 +40,43 @@ body {
     color: orchid;
 }
 
-.abstract {
-    height: 1000px;
-    width: 100%;
-    margin-bottom: -275px;
-    background-image: url("./Images/abstract\ background.png");
-    background-size: cover;
+.display {
+    display:flex;
+    background-image: url(./Images/abstract\ background.png);
     background-position: center;
+    background-size: cover;
+}
+
+.information {
+    /* margin-right: 20px; */
+    margin-top: 25px;
+    clear: both;
+    width: 20%;
+    height: 100%;
+    /* background-color: #d9dcd8; */
+    text-align: center;
+    color: navy;
+    display: block;
+}
+
+h2::before {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    content: '\273A';
+    color: white;
+    margin-right: 5px;
+}
+
+.info-1 {
+    padding: 225px 0px;
+    font-size: 25px;
+    border-right: solid;
+}
+
+.info-2 {
+    margin-top: 35px;
+    padding: 40px 0px;
+    font-size: 25px;
+    border-right: solid;
 }
 
 .content {
@@ -58,7 +84,7 @@ body {
     display: inline-block;
     margin-left: 25px;
     font-size: 20px;
-    margin-top: -2000px;
+    margin-top: 25px;
 } 
 
 .content-item {
@@ -67,6 +93,7 @@ body {
     height: auto;
     background-color: navy;
     color: turquoise;
+    border-radius: 15px;
 }
 
 .auto-biography {
@@ -78,10 +105,12 @@ body {
     background-color: navy;
     color: turquoise;
     line-height: 1.5;
+    border-radius: 15px;
 }
 
 img {
     margin-right: 50px;
+    border-radius: 15px 15px;
 }
 
 .contact-info {
@@ -91,44 +120,13 @@ img {
     font-size: 20px;
 }
 
-.information {
-    /* margin-right: 20px; */
-    padding: 20px;
-    clear: both;
-    float: left;
-    width: 20%;
-    height: 100%;
-    /* background-color: #d9dcd8; */
-    text-align: center;
-    color: navy;
-    display: block;
-    border-right: solid;
+article div ul li a {
+    text-decoration: none;
+    color: turquoise;
 }
 
-/* .information2 {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    background-color: #d9dcd8;
-    text-align: center;
-    color: navy;
-    display: block;
-} */
-
-#float-left {
-    float: left;
-    margin-right: 25px;
-    padding-right: 50px;
-    border-right: solid;
-}
-#float-right {
-    float:right;
-    margin-left: 25px;
-    padding-left: 50px;
-    border-left: solid;
+article div ul li a:hover {
+    color: orchid;
 }
 
 footer {
@@ -136,6 +134,10 @@ footer {
     text-align: center;
     background-color: turquoise;
     color: navy;
+}
+
+footer p {
+    padding: 10px;
 }
 
 @media screen and (max-width: 768px) {
