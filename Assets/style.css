@@ -127,10 +127,6 @@ img {
     box-shadow: 5px 5px 15px black;
 }
 
-p {
-    display: inline-block;
-}
-
 .projects {
     padding:15px;
     margin: 10px, 0px;
