@@ -83,14 +83,14 @@ h2::before {
 }
 
 .info-3 {
-    margin-top: 20px;
-    padding: 377px 0px;
+    margin-top: 23px;
+    padding: 386px 0px;
     font-size: 25px;
     border-right: solid;
 }
 
 .info-4 {
-    margin-top: 22px;
+    margin-top: 15px;
     padding: 46px 0px;
     font-size: 25px;
     border-right: solid;
@@ -224,6 +224,7 @@ img {
 .center {
     display: flex;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .contact-info {
