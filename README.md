@@ -18,7 +18,7 @@ You are able to see information about me, my work, and my contact information in
 
 https://ryann127.github.io/advanced-CSS-RGportfolio/
 
-![Screenshot of Website](Assets/Images/finalwebsite.png)
+![Screenshot of Website](./Assets/Images/finalwebsite.png)
 
 ## Contributors
 - Ryann Goldberg (ryann.goldberg127@gmail.com)
